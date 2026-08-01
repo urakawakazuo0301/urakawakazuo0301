@@ -3,6 +3,8 @@
 Webエンジニアを目指して学習・開発中です（テックキャンプ修了）。  
 接客・飲食業での経験を経て、2024年からプログラミングを本格的に学習しています。
 
+NaniKore (Rails) / laravel-memo-app (Laravel)｜学習・開発中
+
 📍 Fukuoka, Japan
 
 ---
@@ -30,6 +32,33 @@ Webエンジニアを目指して学習・開発中です（テックキャン�
 `Devise` `Pundit` `Active Storage` `AWS (EC2, S3)` `OpenAI API` `Capistrano`
 
 ※ デモ環境は Basic 認証あり
+
+---
+
+### [laravel-memo-app](https://github.com/urakawakazuo0301/laravel-memo-app)
+
+Laravel で作成したメモ（Task）管理用の CRUD アプリケーションです。  
+会員登録・ログイン後、自分のメモだけを作成・閲覧・編集・削除できます。
+
+Rails での開発経験を活かし、Eloquent / Blade / 認証 / バリデーションなど、Laravel の基本構成を一通り実装し、AWS EC2 へデプロイしました。
+
+| | |
+|---|---|
+| Demo | http://18.179.96.132:8080 |
+| GitHub | https://github.com/urakawakazuo0301/laravel-memo-app |
+
+**主な機能**
+- ユーザー登録 / ログイン / ログアウト（Laravel Breeze）
+- メモの一覧・作成・詳細・編集・削除（CRUD）
+- ユーザーごとのデータ分離（`user_id` による紐づけ）
+- バリデーションと日本語エラーメッセージ、フラッシュメッセージ
+
+**Tech Stack**
+
+`PHP 8.4` `Laravel` `SQLite` `Laravel Breeze` `Blade` `Tailwind CSS` `Vite`  
+`AWS (EC2)` `Nginx` `PHP-FPM`
+
+※ デモ用アカウントはアプリの README に記載しています
 
 ---
 
